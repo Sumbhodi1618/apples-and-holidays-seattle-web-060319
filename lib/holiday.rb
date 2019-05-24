@@ -75,3 +75,4 @@ holiday_hash.each do |season, event|
     array_symbols << holiday_event if supply.include?("BBQ")
   end
 end
+end
