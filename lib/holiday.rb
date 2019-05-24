@@ -36,6 +36,7 @@ holiday_hash.each do |hash, season|
     if holiday == :memorial_day
       :memorial_day << supplies
 end
+end
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
   # code here
