@@ -1,4 +1,3 @@
-require 'pry'
 
 def second_supply_for_fourth_of_july(holiday_hash)
   # given that holiday_hash looks like this:
@@ -32,7 +31,7 @@ end
 def add_supply_to_memorial_day(holiday_hash, supply)
   # again, holiday_hash is the same as the ones above
   # add the second argument to the memorial day array
-  supply = ["Grill", "Table Cloth"]
+  supply = ["Grill"]
 holiday_hash[:spring][:memorial_day]= supply
 end
 
