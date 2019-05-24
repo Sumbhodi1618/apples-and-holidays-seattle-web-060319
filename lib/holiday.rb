@@ -1,4 +1,4 @@
-
+require 'pry'
 def second_supply_for_fourth_of_july(holiday_hash)
   # given that holiday_hash looks like this:
   # {
@@ -39,7 +39,7 @@ end
 end
 end
 end
-
+binding.pry
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
   # code here
   # remember to return the updated hash
