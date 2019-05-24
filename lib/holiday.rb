@@ -36,7 +36,7 @@ holiday_hash[:spring][:memorial_day]= supply
 if memorial_day == [2]
   holiday_hash[:spring][:memorial_day] = "Table Cloth"
 end
-end 
+end
 
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
   # code here
