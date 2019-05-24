@@ -73,6 +73,7 @@ array_symbols = []
 holiday_hash.each do |season, event|
   event.each do |holiday_event, supply|
     array_symbols << holiday_event if supply.include?("BBQ")
+      end
+    end
   end
-end
 end
