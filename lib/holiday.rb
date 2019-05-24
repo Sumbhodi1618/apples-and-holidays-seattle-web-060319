@@ -76,4 +76,5 @@ holiday_hash.each do |season, event|
       end
     end
   end
+  array_symbols
 end
